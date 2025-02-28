@@ -21,7 +21,7 @@ export const weblinks:weblink[] = [
 		icon: "faTelegram",
 	},
 	{
-		url: "https://github.com/maksiksking/",
+		url: "https://github.com/maksiksq/",
 		icon: "faGithubAlt",
 	},
 	// {
