@@ -5,7 +5,7 @@ export type weblink = {
 
 export const weblinks:weblink[] = [
 	{
-		url: "https://mail.google.com/mail/u/2/#inbox",
+		url: "https://mail.google.com/mail/u/5/#inbox",
 		icon: "faEnvelope",
 	},
 	{
