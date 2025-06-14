@@ -13,7 +13,7 @@ body {
 	background-color: var(--bg-color);
 	color: var(--default-color);
 	overflow: hidden;
-	font-family: "Futura LT Light";
+	font-family: "Futura LT Light", serif;
 }
 p {
 	margin:0px
