@@ -29,7 +29,7 @@ export function Settings(props:props){
         toastAction("Changed searchengine to "+url)
     }
     
-    let engines:JSX.Element[] = []
+    let engines: React.ReactElement[] = []
     searchEngines.forEach(engine => {
         engines.push(
             <div>

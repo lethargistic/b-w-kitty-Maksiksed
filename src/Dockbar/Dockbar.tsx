@@ -8,7 +8,7 @@ import "../_styles/dockbar.css"
 import { weblinks } from '../_data/data'
 
 export function Settings(){
-    let icons:JSX.Element[] = []
+    let icons: React.ReactElement[] = []
     weblinks.forEach(weblink => {
         icons.push(
             <a href={weblink.url}>

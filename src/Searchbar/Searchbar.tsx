@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {JSX} from 'react';
 import '../_styles/searchbar.css';
 
 export function SearchBar() : JSX.Element {
@@ -20,7 +20,7 @@ export function SearchBar() : JSX.Element {
                     placeholder="Pro tip: You can use a searchbar to search"
                     className="input" 
                     type="input"
-                    ref = {(ref) => inputRef = ref} 
+                    ref={(ref) => { inputRef = ref }}
                     onKeyPress={(e) => {if (e.which === 13) redirectToSearch()}}
                 />
             </div>
