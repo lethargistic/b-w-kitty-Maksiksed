@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import {Toastify, toastAction} from "./Toastify/Toastify"
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {fas} from '@fortawesome/free-solid-svg-icons'
 
 import './_styles/animations.css';
 import './_styles/variables.css';
